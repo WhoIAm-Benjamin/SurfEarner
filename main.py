@@ -1,7 +1,10 @@
-import os
-import pickle
 import re
+import pyAesCrypt
+from threading import Thread as Th
 from os import system as execute
+from os import (path,
+                getcwd,
+                remove)
 from sys import argv
 from sys import exit as ex
 from time import sleep, time
@@ -20,14 +23,24 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 # Получение логина и пароля из конфигурационого файла
-with open('settings.txt', 'rb') as f:
-    content = pickle.load(f)
-    content = content.split('\n')
-# login, password, timeout = open('settings.txt', 'r').readlines()
-LOGIN = content[0].split(':')[1].replace('\n', '')
-PASSWORD = content[1].split(':')[1].replace('\n', '')
-TIMEOUT = int(content[2].split(':')[1].replace('\n', ''))
+def decryptor():
+    file = 'settings.txt.crp'
+    password_file = 'filepasswdroot'
+    buffer_size = 512 * 1024
+    pyAesCrypt.decryptFile(file, str(path.splitext(file)[0]), password_file, buffer_size)
+    with open('settings.txt', 'r') as f:
+        login, password, timeout = f.readlines()
+    LOGIN = login.split(':')[1].strip('\n')
+    PASSWORD = password.split(':')[1].strip('\n')
+    TIMEOUT = timeout.split(':')[1].strip('\n')
+    remove('settings.txt')
+    return LOGIN, PASSWORD, TIMEOUT
 
+def killer():
+    while True:
+        sleep(1200)
+        execute('taskkill /f /IM chrome.exe')
+        execute('taskkill /f /IM chromedriver.exe')
 
 def wait_loading():
     # wait page loading
@@ -69,7 +82,7 @@ def wait(operator, value, interval=0.1):
 
 
 def get_path(file):
-    return os.path.join(os.getcwd(), file)
+    return path.join(getcwd(), file)
 
 
 
@@ -112,6 +125,7 @@ def auth():
     """ Переход на сайт и авторизация
     :return: None
     """
+    LOGIN, PASSWORD, TIMEOUT = decryptor()
     # если открыта вторая вкладка, то закрываем
     # необходимо при первом запуске программы
     if len(driver.window_handles) == 2:
@@ -165,10 +179,10 @@ def complate_tasks():
         return emoji_pattern.sub(r'', string)
 
     # закрываем лишние вкладки
-    if len(driver.window_handles) > 1:
-    	driver.switch_to.window(driver.window_handles[1])
-    	driver.close()
-    	return
+    while len(driver.window_handles) > 1:
+        driver.switch_to.window(driver.window_handles[1])
+        driver.close()
+        return
 
     # ищем задания по просмотру видео
     wait('id', 'cpa-items')
@@ -336,6 +350,7 @@ def take_gift():
 def main():
     start = time()
     try:
+        th = Th(target = killer, args = ())
         init_driver()
         auth()
         # take_gift()
