@@ -24,6 +24,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 # Получение логина и пароля из конфигурационого файла
 def decryptor():
+    global LOGIN, PASSWORD, TIMEOUT
     file = 'settings.txt.crp'
     password_file = 'filepasswdroot'
     buffer_size = 512 * 1024
@@ -32,7 +33,7 @@ def decryptor():
         login, password, timeout = f.readlines()
     LOGIN = login.split(':')[1].strip('\n')
     PASSWORD = password.split(':')[1].strip('\n')
-    TIMEOUT = timeout.split(':')[1].strip('\n')
+    TIMEOUT = int(timeout.split(':')[1].strip('\n'))
     remove('settings.txt')
     return LOGIN, PASSWORD, TIMEOUT
 
@@ -73,6 +74,7 @@ def check_exist(operator, value):
 
 
 def wait(operator, value, interval=0.1):
+    global TIMEOUT
     # wait while object not exist
     start = time()
     while not check_exist(operator, value):
@@ -122,6 +124,7 @@ def init_driver():
 
 
 def auth():
+    global LOGIN, PASSWORD, TIMEOUT
     """ Переход на сайт и авторизация
     :return: None
     """
@@ -234,7 +237,7 @@ def complate_tasks():
         wait('class_name', 'video_preview_text')
         video_name = driver.find_element_by_class_name(
             'video_preview_text'
-        ).find_element_by_class_name('title').text
+        ).find_element_by_class_name('title').text.split('-')[0]
         video_name = _remove_emoji(video_name)
 
         sleep(2)
@@ -286,6 +289,10 @@ def complate_tasks():
         wait('id', 'surfearner_ntf_wrap')
 
     # ждем минимальное время
+    while len(driver,window_handles) > 2:
+        driver.close()
+        driver.switch_to.window(driver.window_handles[-1])
+    driver.switch_to.window(driver.window_handles[1])
     wait_loading()
     sleep(min_interval)
     # start = time()

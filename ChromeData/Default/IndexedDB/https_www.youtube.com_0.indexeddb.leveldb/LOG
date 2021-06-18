@@ -1,3 +1,4 @@
-2021/06/17-12:36:44.888 1928 Reusing MANIFEST D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/06/17-12:36:44.893 1928 Recovering log #6330
-2021/06/17-12:36:44.896 1928 Reusing old log D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/006330.log 
+2021/06/18-15:36:38.037 fb8 Reusing MANIFEST D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/18-15:36:38.040 fb8 Recovering log #7279
+2021/06/18-15:36:38.042 fb8 Reusing old log D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/007279.log 
+2021/06/18-15:36:38.042 fb8 Delete type=2 #7278

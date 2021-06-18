@@ -1,3 +1,6 @@
-2021/06/17-12:36:39.867 1f90 Reusing MANIFEST D:\Programming\SurfEarner\ChromeData\Default\Local Storage\leveldb/MANIFEST-000001
-2021/06/17-12:36:39.868 1f90 Recovering log #128
-2021/06/17-12:36:39.869 1f90 Reusing old log D:\Programming\SurfEarner\ChromeData\Default\Local Storage\leveldb/000128.log 
+2021/06/18-15:32:36.314 d54 Reusing MANIFEST D:\Programming\SurfEarner\ChromeData\Default\Local Storage\leveldb/MANIFEST-000001
+2021/06/18-15:32:36.316 d54 Recovering log #148
+2021/06/18-15:32:36.318 d54 Reusing old log D:\Programming\SurfEarner\ChromeData\Default\Local Storage\leveldb/000148.log 
+2021/06/18-15:33:40.558 9b4 Level-0 table #152: started
+2021/06/18-15:33:40.665 9b4 Level-0 table #152: 13603 bytes OK
+2021/06/18-15:33:40.778 9b4 Delete type=0 #148
