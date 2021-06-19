@@ -289,7 +289,7 @@ def complate_tasks():
         wait('id', 'surfearner_ntf_wrap')
 
     # ждем минимальное время
-    while len(driver,window_handles) > 2:
+    while len(driver.window_handles) > 2:
         driver.close()
         driver.switch_to.window(driver.window_handles[-1])
     driver.switch_to.window(driver.window_handles[1])
