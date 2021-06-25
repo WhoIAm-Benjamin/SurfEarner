@@ -5,7 +5,7 @@ from os import system as execute
 from os import (path,
                 getcwd,
                 remove)
-from sys import argv
+# from sys import argv
 from sys import exit as ex
 from time import sleep, time
 
@@ -89,17 +89,18 @@ def get_path(file):
 
 
 def init_driver():
-    """ Создание драйвера selenium для chrome
+    """ Создание драйвера selenium для Chrome
     :return: None
     """
 
     chrome_options = webdriver.ChromeOptions()
 
+    path_data = get_path('ChromeData')
     chrome_options.add_argument(
-        f'user-data-dir={get_path("ChromeData")}'
+        'user-data-dir={}'.format(path_data)
     )
     chrome_options.add_experimental_option('useAutomationExtension', False)
-    # загружаем расширение для surfearner
+    # загружаем расширение для SurfEarner
     chrome_options.add_extension('extension.crx')
 
     global driver
@@ -355,9 +356,21 @@ def take_gift():
 
 
 def main():
-    start = time()
     try:
-        th = Th(target = killer, args = ())
+        with open('restarts.txt', 'r') as f:
+            restarts = f.read().strip('\n')
+    except FileNotFoundError:
+        restarts = 0
+    restarts = 0 if restarts == '' else restarts
+    try:
+        with open('timeout_errors.txt', 'r') as f:
+            errors = f.read().strip('\n')
+    except FileNotFoundError:
+        errors = 0
+    errors = 0 if errors == '' else errors
+    start = time()
+    print('Restarts - {}\nTimeout errors - {}'.format(restarts, errors))
+    try:
         init_driver()
         auth()
         # take_gift()
@@ -375,21 +388,34 @@ def main():
         ex()
     except WebDriverException:
         print('\n\n\a\aRestart\a\a\n\n')
+        restarts += 1
+        execute('cls')
+        with open('restarts.txt', 'w') as f:
+            f.write(str(restarts))
         try:
             driver.quit()
         except NameError:
             pass
         finally:
-            ex(main())
+            ex(starter())
     except TimeoutError:
         print('\n\n\aTimeout error\a\n\n')
+        errors += 1
+        execute('cls')
+        with open('timeout_errors', 'w') as f:
+            f.write(str(errors))
         driver.quit()
-        ex(main())
+        ex(starter())
     except KeyboardInterrupt:
         driver.quit()
         sleep(3)
 
+def starter():
+    th1 = Th(target = killer)
+    th2 = Th(target = main)
+    th1.start()
+    th2.start()
 
 
 if __name__ == '__main__':
-    main()
+    starter()
