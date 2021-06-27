@@ -1,18 +1,18 @@
 import re
-import pyAesCrypt
-from threading import Thread as Th
-from os import system as execute
 from os import (path,
-                getcwd,
-                remove)
+                getcwd)
+from os import remove as rm
+from os import system as execute
+from threading import Thread as Th
+
+import pyAesCrypt as pAC
 # from sys import argv
+from urllib3.exceptions import MaxRetryError as eMRE
 from sys import exit as ex
 from time import sleep, time
 
 from selenium import webdriver
-from selenium.common.exceptions import (ElementClickInterceptedException,
-                                        ElementNotInteractableException,
-                                        NoSuchElementException,
+from selenium.common.exceptions import (NoSuchElementException,
                                         StaleElementReferenceException,
                                         WebDriverException)
 from selenium.webdriver.common.action_chains import ActionChains
@@ -28,13 +28,13 @@ def decryptor():
     file = 'settings.txt.crp'
     password_file = 'filepasswdroot'
     buffer_size = 512 * 1024
-    pyAesCrypt.decryptFile(file, str(path.splitext(file)[0]), password_file, buffer_size)
+    pAC.decryptFile(file, str(path.splitext(file)[0]), password_file, buffer_size)
     with open('settings.txt', 'r') as f:
         login, password, timeout = f.readlines()
     LOGIN = login.split(':')[1].strip('\n')
     PASSWORD = password.split(':')[1].strip('\n')
     TIMEOUT = int(timeout.split(':')[1].strip('\n'))
-    remove('settings.txt')
+    rm('settings.txt')
     return LOGIN, PASSWORD, TIMEOUT
 
 def killer():
@@ -303,8 +303,7 @@ def complate_tasks():
         start = time()
         while not check_exist('class_name', 'closed'):
             if time() - start > 120:
-                # return -1
-                return
+                return -1
             try:
                 int(driver.find_element_by_id('_se_visit_timer').text)
             except:
@@ -318,77 +317,85 @@ def complate_tasks():
         pass
 
 
-def take_gift():
-    """ Забираем подарок
-    :return: None
-    """
-    # открываем окно подарка
-    while driver.current_url != 'https://surfearner.com/gift':
-        driver.get('https://surfearner.com/gift')
-    # driver.switch_to.window(driver.window_handles[1])
-    wait_loading()
-    sleep(6) # ждем полной загрузки
-
-    # запускаем видео
-    driver.switch_to.frame(
-        driver.find_element_by_id('video')
-    )
-    driver.find_element_by_class_name(
-        'ytp-large-play-button'
-    ).click()
-    driver.switch_to_default_content()
-
-    # ждем истечения таймера
-    try:
-        timer = driver.find_element_by_id('videorollText').find_element_by_tag_name('span')
-    except WebDriverException:
-        return
-    while 1:
-        try:
-            if timer.text == '0':
-                print('\a\a\a\a')
-                break
-        except:
-            print('\a\a\a\a')
-            sleep(15)
-            break
-
+# def take_gift():
+#     """ Забираем подарок
+#     :return: None
+#     """
+#     # открываем окно подарка
+#     while driver.current_url != 'https://surfearner.com/gift':
+#         driver.get('https://surfearner.com/gift')
+#     # driver.switch_to.window(driver.window_handles[1])
+#     wait_loading()
+#     sleep(6) # ждем полной загрузки
+#
+#     # запускаем видео
+#     driver.switch_to.frame(
+#         driver.find_element_by_id('video')
+#     )
+#     driver.find_element_by_class_name(
+#         'ytp-large-play-button'
+#     ).click()
+#     driver.switch_to_default_content()
+#
+#     # ждем истечения таймера
+#     try:
+#         timer = driver.find_element_by_id('videorollText').find_element_by_tag_name('span')
+#     except WebDriverException:
+#         return
+#     while 1:
+#         try:
+#             if timer.text == '0':
+#                 print('\a\a\a\a')
+#                 break
+#         except:
+#             print('\a\a\a\a')
+#             sleep(15)
+#             # break
 
 
 def main():
+
     try:
         with open('restarts.txt', 'r') as f:
             restarts = f.read().strip('\n')
     except FileNotFoundError:
         restarts = 0
-    restarts = 0 if restarts == '' else restarts
+
     try:
         with open('timeout_errors.txt', 'r') as f:
             errors = f.read().strip('\n')
     except FileNotFoundError:
         errors = 0
-    errors = 0 if errors == '' else errors
-    start = time()
-    print('Restarts - {}\nTimeout errors - {}'.format(restarts, errors))
+
+    try:
+        with open('index_errors.txt', 'r') as f:
+            index_errors = f.read().strip('\n')
+    except FileNotFoundError:
+        index_errors = 0
+
+    restarts = 0 if restarts == '' else int(restarts)
+    errors = 0 if errors == '' else int(errors)
+    index_errors = 0 if index_errors == '' else int(index_errors)
+
+    # start = time()
+    print('Restarts - {}\nTimeout errors - {}\nIndex errors - {}'.format(restarts, errors, index_errors))
     try:
         init_driver()
         auth()
         # take_gift()
         while 1:
             # проверяем подарок каждые полчаса
-            if time() - start > 1800:
-                take_gift()
-                start = time()
+            # if time() - start > 1800:
+            #     take_gift()
+            #     start = time()
             driver.switch_to.window(driver.window_handles[0])
             driver.get('https://surfearner.com/cpa')
             # если вернуло -1, перезапускаем браузер
             if complate_tasks() == -1:
-                break
-        driver.quit()
-        ex()
+                raise WebDriverException
     except WebDriverException:
         print('\n\n\a\aRestart\a\a\n\n')
-        restarts += 1
+        restarts = int(restarts) + 1
         execute('cls')
         with open('restarts.txt', 'w') as f:
             f.write(str(restarts))
@@ -400,13 +407,27 @@ def main():
             ex(starter())
     except TimeoutError:
         print('\n\n\aTimeout error\a\n\n')
-        errors += 1
+        errors = int(errors) + 1
         execute('cls')
         with open('timeout_errors', 'w') as f:
             f.write(str(errors))
         driver.quit()
         ex(starter())
+    except IndexError:
+        index_errors += 1
+        with open('index_errors.txt', 'w') as f:
+            f.write(str(index_errors))
+        driver.quit()
+        ex(main())
+    except eMRE:
+        raise WebDriverException
     except KeyboardInterrupt:
+        with open('restarts.txt', 'w') as f:
+            f.write('0')
+        with open('errors.txt', 'w') as f:
+            f.write('0')
+        with open('index_errors.txt', 'w') as f:
+            f.write('0')
         driver.quit()
         sleep(3)
 
