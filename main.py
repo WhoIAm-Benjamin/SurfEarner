@@ -352,6 +352,9 @@ def complate_tasks():
 #             sleep(15)
 #             # break
 
+def excepter():
+    driver.quit()
+    ex(starter())
 
 def main():
 
@@ -409,18 +412,16 @@ def main():
         print('\n\n\aTimeout error\a\n\n')
         errors = int(errors) + 1
         execute('cls')
-        with open('timeout_errors', 'w') as f:
+        with open('timeout_errors.txt', 'w') as f:
             f.write(str(errors))
-        driver.quit()
-        ex(starter())
+        excepter()
     except IndexError:
         index_errors += 1
         with open('index_errors.txt', 'w') as f:
             f.write(str(index_errors))
-        driver.quit()
-        ex(main())
+        excepter()
     except eMRE:
-        raise WebDriverException
+        excepter()
     except KeyboardInterrupt:
         with open('restarts.txt', 'w') as f:
             f.write('0')
@@ -430,6 +431,7 @@ def main():
             f.write('0')
         driver.quit()
         sleep(3)
+        execute('taskkill /f /IM "Automatic Chrome.exe"')
 
 def starter():
     th1 = Th(target = killer)

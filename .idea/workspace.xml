@@ -1,6 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="57cdfd3c-7b95-442f-ab60-383c469f2768" name="Default" comment="raise is fixed">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/CertificateRevocation/6686/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Crowd Deny/2021.6.14.1141/manifest.fingerprint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Crowd Deny/2021.6.14.1141/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000045" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000046" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000047" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000048" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000049" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00004a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00004b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00004d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000057" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000058" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000059" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00005a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00005b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00005c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00005d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00005f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000069" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00006a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00006b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00006c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00006d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00006e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00006f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00007a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00007b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00008a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00008b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00008c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00008d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00008e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00008f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00009d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00009e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00009f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000a9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000b5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000b6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000b7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000b8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000b9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000c9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000d4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000d5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000d6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000d7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000d8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000d9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000e6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000e7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000e9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000ea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000eb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000f8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000f9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000fb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000fc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000fd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0000ff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000100" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000101" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000102" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000103" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000104" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000105" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000106" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000108" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000110" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000118" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000127" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000128" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000129" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000130" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000131" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000132" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000133" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000134" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000135" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000137" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000139" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000144" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00014a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000154" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000155" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000156" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000157" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000158" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000159" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00015a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00015c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000166" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000167" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000168" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000169" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00016a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00016b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00016c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00016e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000178" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000179" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00017a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00017b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00017c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00017d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00017e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00018a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00018b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00018c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00019a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00019b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00019c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00019d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00019e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00019f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001a8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001b8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001c9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001e3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001e4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001e5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001e6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001e7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001f7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001f8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001f9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_0001fc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000200" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000201" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000202" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000204" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000210" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000211" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000212" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000213" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000214" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000217" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000220" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000221" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000226" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000227" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000229" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000230" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000231" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000232" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000240" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000241" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000242" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000243" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000244" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000245" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000246" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000247" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000248" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000249" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000251" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000253" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000258" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000259" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000263" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000264" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000265" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000266" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000267" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000268" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000269" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_00026b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000275" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000276" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000277" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000278" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000578" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000580" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000582" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Cache/f_000583" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Service Worker/ScriptCache/89362fd106870825_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Service Worker/ScriptCache/89362fd106870825_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Session Storage/000124.ldb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Session Storage/000127.ldb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Sessions/Tabs_13269071605484220" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/Sessions/Tabs_13269071731031965" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Default/data_reduction_proxy_leveldb/001001.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/SafetyTips/2654/manifest.fingerprint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Subresource Filter/Indexed Rules/29/9.27.0/Ruleset Data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/Subresource Filter/Unindexed Rules/9.27.0/Filtering Rules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/_metadata/verified_contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-cy.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-da.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-de-1996.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-en-gb.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-et.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-eu.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-ga.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-hi.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-hr.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-hu.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-hy.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-mn-cyrl.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-nb.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-nn.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-or.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-sl.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/hyph-te.hyb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ChromeData/hyphen-data/93.0.4551.0/manifest.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1719962b39e29ab3_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1719962b39e29ab3_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/174c7d48be0666cb_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/174c7d48be0666cb_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1acbf44c2e89da6c_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1acbf44c2e89da6c_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1c2ce5dc8d403472_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1c2ce5dc8d403472_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1ffe4c1dc689b0c0_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/1ffe4c1dc689b0c0_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/335e69ddec2b9ac6_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/335e69ddec2b9ac6_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/35406ecb0813074d_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/35406ecb0813074d_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/5734a505498d776c_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/5734a505498d776c_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/5ddf2658a6eff41d_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/5ddf2658a6eff41d_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/8fb6137e5116f398_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/8fb6137e5116f398_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/91283c0be5b452cd_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/91283c0be5b452cd_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/93304a7c3aad2e4c_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/93304a7c3aad2e4c_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/9c3019cd6d35b349_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/9c3019cd6d35b349_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/b6ee15a18e5f6144_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/b6ee15a18e5f6144_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/ef78d19fada55bd1_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/ef78d19fada55bd1_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/f0b5c2dfb1048e01_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/f0b5c2dfb1048e01_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/f3ad18a8bb03b81a_0" afterPath="$PROJECT_DIR$/ChromeData/Default/Code Cache/js/f3ad18a8bb03b81a_0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/GPUCache/data_1" afterPath="$PROJECT_DIR$/ChromeData/Default/GPUCache/data_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/QuotaManager" afterPath="$PROJECT_DIR$/ChromeData/Default/QuotaManager" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/QuotaManager-journal" afterPath="$PROJECT_DIR$/ChromeData/Default/QuotaManager-journal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Reporting and NEL" afterPath="$PROJECT_DIR$/ChromeData/Default/Reporting and NEL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/11879a35-a68b-4a01-bd30-42824e095d08/index-dir/the-real-index" afterPath="$PROJECT_DIR$/ChromeData/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/11879a35-a68b-4a01-bd30-42824e095d08/index-dir/the-real-index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Module Info Cache" afterPath="$PROJECT_DIR$/ChromeData/Module Info Cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Automatic Chrome/PYZ-00.pyz" afterPath="$PROJECT_DIR$/build/Automatic Chrome/PYZ-00.pyz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Extension Rules/000003.log" afterPath="$PROJECT_DIR$/ChromeData/Default/Extension Rules/000003.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Extension Rules/LOG" afterPath="$PROJECT_DIR$/ChromeData/Default/Extension Rules/LOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Extension State/LOG.old" afterPath="$PROJECT_DIR$/ChromeData/Default/Extension State/LOG.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/File System/Origins/LOG.old" afterPath="$PROJECT_DIR$/ChromeData/Default/File System/Origins/LOG.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/LOG" afterPath="$PROJECT_DIR$/ChromeData/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/LOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Local Extension Settings/klebcgndepdaddnadnmphbmjgfkdllke/LOG" afterPath="$PROJECT_DIR$/ChromeData/Default/Local Extension Settings/klebcgndepdaddnadnmphbmjgfkdllke/LOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Local Extension Settings/klebcgndepdaddnadnmphbmjgfkdllke/LOG.old" afterPath="$PROJECT_DIR$/ChromeData/Default/Local Extension Settings/klebcgndepdaddnadnmphbmjgfkdllke/LOG.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Local Storage/leveldb/LOG.old" afterPath="$PROJECT_DIR$/ChromeData/Default/Local Storage/leveldb/LOG.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Network Persistent State" afterPath="$PROJECT_DIR$/ChromeData/Default/Network Persistent State" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Preferences" afterPath="$PROJECT_DIR$/ChromeData/Default/Preferences" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Secure Preferences" afterPath="$PROJECT_DIR$/ChromeData/Default/Secure Preferences" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/index.txt" afterPath="$PROJECT_DIR$/ChromeData/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/index.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Service Worker/Database/LOG" afterPath="$PROJECT_DIR$/ChromeData/Default/Service Worker/Database/LOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Site Characteristics Database/000003.log" afterPath="$PROJECT_DIR$/ChromeData/Default/Site Characteristics Database/000003.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Site Characteristics Database/LOG.old" afterPath="$PROJECT_DIR$/ChromeData/Default/Site Characteristics Database/LOG.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/Sync Data/LevelDB/LOG" afterPath="$PROJECT_DIR$/ChromeData/Default/Sync Data/LevelDB/LOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/TransportSecurity" afterPath="$PROJECT_DIR$/ChromeData/Default/TransportSecurity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/data_reduction_proxy_leveldb/CURRENT" afterPath="$PROJECT_DIR$/ChromeData/Default/data_reduction_proxy_leveldb/CURRENT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/Default/data_reduction_proxy_leveldb/LOG.old" afterPath="$PROJECT_DIR$/ChromeData/Default/data_reduction_proxy_leveldb/LOG.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeData/chrome_debug.log" afterPath="$PROJECT_DIR$/ChromeData/chrome_debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Automatic Chrome/Analysis-00.toc" afterPath="$PROJECT_DIR$/build/Automatic Chrome/Analysis-00.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Automatic Chrome/PYZ-00.toc" afterPath="$PROJECT_DIR$/build/Automatic Chrome/PYZ-00.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Automatic Chrome/xref-Automatic Chrome.html" afterPath="$PROJECT_DIR$/build/Automatic Chrome/xref-Automatic Chrome.html" />
+    </list>
+    <ignored path="SurfEarner.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +315,60 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SurfEarner" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.5039163">
+              <caret line="423" column="29" selection-start-line="423" selection-start-column="29" selection-end-line="423" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#895#1401#0" expanded="true" />
+                <element signature="e#1421#1550#0" expanded="true" />
+                <element signature="e#1576#1700#0" expanded="true" />
+                <element signature="e#1741#2238#0" expanded="true" />
+                <element signature="e#2286#2521#0" expanded="true" />
+                <element signature="e#2548#2580#0" expanded="true" />
+                <element signature="e#2607#3599#0" expanded="true" />
+                <element signature="e#3618#4867#0" expanded="true" />
+                <element signature="e#4896#9851#0" expanded="true" />
+                <element signature="e#4980#5610#0" expanded="true" />
+                <element signature="e#13215#13300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="WhoIAm-Benjamin" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -21,24 +380,186 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="57cdfd3c-7b95-442f-ab60-383c469f2768" name="Default" comment="" />
       <created>1624596179543</created>
       <option name="number" value="Default" />
       <updated>1624596179543</updated>
     </task>
+    <task id="LOCAL-00001" summary="raise is fixed">
+      <created>1624826596895</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624826596895</updated>
+    </task>
+    <task id="LOCAL-00002" summary="raise is fixed">
+      <created>1624864341104</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624864341104</updated>
+    </task>
+    <task id="LOCAL-00003" summary="raise is fixed">
+      <created>1624864715366</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624864715366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="raise is fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="raise is fixed" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#895#1401#0" expanded="true" />
+            <element signature="e#1421#1550#0" expanded="true" />
+            <element signature="e#1576#1700#0" expanded="true" />
+            <element signature="e#1741#2238#0" expanded="true" />
+            <element signature="e#2286#2521#0" expanded="true" />
+            <element signature="e#2548#2580#0" expanded="true" />
+            <element signature="e#2607#3599#0" expanded="true" />
+            <element signature="e#3618#4867#0" expanded="true" />
+            <element signature="e#4896#9851#0" expanded="true" />
+            <element signature="e#4980#5610#0" expanded="true" />
+            <element signature="e#13215#13300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#895#1401#0" expanded="true" />
+            <element signature="e#1421#1550#0" expanded="true" />
+            <element signature="e#1576#1700#0" expanded="true" />
+            <element signature="e#1741#2238#0" expanded="true" />
+            <element signature="e#2286#2521#0" expanded="true" />
+            <element signature="e#2548#2580#0" expanded="true" />
+            <element signature="e#2607#3599#0" expanded="true" />
+            <element signature="e#3618#4867#0" expanded="true" />
+            <element signature="e#4896#9851#0" expanded="true" />
+            <element signature="e#4980#5610#0" expanded="true" />
+            <element signature="e#13215#13300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#895#1401#0" expanded="true" />
+            <element signature="e#1421#1550#0" expanded="true" />
+            <element signature="e#1576#1700#0" expanded="true" />
+            <element signature="e#1741#2238#0" expanded="true" />
+            <element signature="e#2286#2521#0" expanded="true" />
+            <element signature="e#2548#2580#0" expanded="true" />
+            <element signature="e#2607#3599#0" expanded="true" />
+            <element signature="e#3618#4867#0" expanded="true" />
+            <element signature="e#4896#9851#0" expanded="true" />
+            <element signature="e#4980#5610#0" expanded="true" />
+            <element signature="e#13215#13300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.5039163">
+          <caret line="423" column="29" selection-start-line="423" selection-start-column="29" selection-end-line="423" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#895#1401#0" expanded="true" />
+            <element signature="e#1421#1550#0" expanded="true" />
+            <element signature="e#1576#1700#0" expanded="true" />
+            <element signature="e#1741#2238#0" expanded="true" />
+            <element signature="e#2286#2521#0" expanded="true" />
+            <element signature="e#2548#2580#0" expanded="true" />
+            <element signature="e#2607#3599#0" expanded="true" />
+            <element signature="e#3618#4867#0" expanded="true" />
+            <element signature="e#4896#9851#0" expanded="true" />
+            <element signature="e#4980#5610#0" expanded="true" />
+            <element signature="e#13215#13300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

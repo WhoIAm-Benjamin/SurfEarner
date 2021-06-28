@@ -1,3 +1,36 @@
-2021/06/25-08:16:01.219 7f8 Reusing MANIFEST D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/06/25-08:16:01.222 7f8 Recovering log #7540
-2021/06/25-08:16:01.520 7f8 Reusing old log D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/007540.log 
+2021/06/28-19:26:00.941 a6c Reusing MANIFEST D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/28-19:26:00.943 a6c Recovering log #8040
+2021/06/28-19:26:00.944 a6c Reusing old log D:\Programming\SurfEarner\ChromeData\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/008040.log 
+2021/06/28-19:26:00.945 a6c Delete type=2 #8039
+2021/06/28-19:26:38.482 128c Level-0 table #8045: started
+2021/06/28-19:26:38.687 128c Level-0 table #8045: 45708 bytes OK
+2021/06/28-19:26:38.723 128c Delete type=0 #8040
+2021/06/28-19:26:38.800 128c Manual compaction at level-0 from ' ]\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. ' ^\x0a\x00\x00\x00' @ 0 : 0; will stop at ' ^\x0a\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 1009791 : 1
+2021/06/28-19:26:38.800 128c Compacting 1@0 + 1@1 files
+2021/06/28-19:26:38.848 128c Generated table #8046@0: 767 keys, 14379 bytes
+2021/06/28-19:26:38.848 128c Compacted 1@0 + 1@1 files => 14379 bytes
+2021/06/28-19:26:38.868 128c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-19:26:38.869 128c Delete type=2 #8045
+2021/06/28-19:26:38.870 128c Manual compaction at level-0 from ' ^\x0a\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 1009791 : 1 .. ' ^\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/06/28-19:27:11.563 f78 Level-0 table #8048: started
+2021/06/28-19:27:11.644 f78 Level-0 table #8048: 51344 bytes OK
+2021/06/28-19:27:11.719 f78 Delete type=2 #8042
+2021/06/28-19:27:11.719 f78 Delete type=0 #8044
+2021/06/28-19:27:11.720 f78 Manual compaction at level-0 from ' _\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. ' `\x0a\x00\x00\x00' @ 0 : 0; will stop at ' _\x0a\x01\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00p\x9f\x1e7\xa5wB\x00\x03\x00\x00\x00\x00\x00\x000@' @ 1011040 : 1
+2021/06/28-19:27:11.720 f78 Compacting 1@0 + 1@1 files
+2021/06/28-19:27:11.893 f78 Generated table #8049@0: 900 keys, 15593 bytes
+2021/06/28-19:27:11.893 f78 Compacted 1@0 + 1@1 files => 15593 bytes
+2021/06/28-19:27:11.948 f78 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-19:27:11.949 f78 Delete type=2 #8048
+2021/06/28-19:27:11.949 15f8 Manual compaction at level-0 from ' _\x0a\x01\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00p\x9f\x1e7\xa5wB\x00\x03\x00\x00\x00\x00\x00\x000@' @ 1011040 : 1 .. ' `\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/06/28-19:27:11.950 15f8 Level-0 table #8051: started
+2021/06/28-19:27:11.986 15f8 Level-0 table #8051: 967 bytes OK
+2021/06/28-19:27:12.015 15f8 Delete type=2 #8046
+2021/06/28-19:27:12.015 15f8 Delete type=0 #8047
+2021/06/28-19:27:12.016 f78 Manual compaction at level-0 from ' ^\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. ' _\x0a\x00\x00\x00' @ 0 : 0; will stop at ' ^\x0a\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 1011308 : 0
+2021/06/28-19:27:12.016 f78 Compacting 1@0 + 1@1 files
+2021/06/28-19:27:12.064 f78 Generated table #8052@0: 875 keys, 13798 bytes
+2021/06/28-19:27:12.064 f78 Compacted 1@0 + 1@1 files => 13798 bytes
+2021/06/28-19:27:12.093 f78 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-19:27:12.093 f78 Delete type=2 #8051
+2021/06/28-19:27:12.094 f78 Manual compaction at level-0 from ' ^\x0a\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 1011308 : 0 .. ' _\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
