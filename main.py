@@ -8,7 +8,6 @@ from threading import Thread as Th
 import pyAesCrypt as pAC
 # from sys import argv
 from urllib3.exceptions import MaxRetryError as eMRE
-from urllib3.exceptions import ProtocolError as ePE
 from sys import exit as ex
 from time import sleep, time
 
@@ -421,8 +420,6 @@ def main():
         driver.quit()
         ex(main())
     except eMRE:
-        raise WebDriverException
-    except ePE:
         raise WebDriverException
     except KeyboardInterrupt:
         with open('restarts.txt', 'w') as f:
