@@ -36,12 +36,3 @@ def main():
 		remove(file)
 
 main()
-# try:
-# 	with open('settings.txt', 'rb') as f:
-# 		s = pickle.load(f)
-# 		login, password, timeout = s.split('\n')
-		
-
-# with open('settings.txt', 'wb') as f:
-# 	s = 'LOGIN:{}\nPASSWORD:{}\nTIMEOUT:{}'.format(login, password, timeout)
-# 	pickle.dump(s, f)

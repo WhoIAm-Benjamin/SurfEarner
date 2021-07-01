@@ -2,15 +2,14 @@
 
 block_cipher = None
 
-
 a = Analysis(['main.py'],
              pathex=['D:\\Programming\\SurfEarner'],
              binaries=[],
              datas=[],
-             hiddenimports=[],
+             hiddenimports=['re', 'pyAesCrypt', 'urllib3.exceptions.MaxRetryError', 'urllib3.exceptions.ProtocolError', 'selenium.webdriver', 'selenium.common.exceptions.NoSuchElementException', 'selenium.common.exceptions.StaleElementReferenceException', 'selenium.common.exceptions.WebDriverException', 'selenium.webdriver.common.action_chains.ActionChains', 'selenium.webdriver.common.by.By', 'selenium.webdriver.common.keys.Keys', 'selenium.webdriver.support.expected_conditions', 'selenium.webdriver.support.wait.WebDriverWait'],
              hookspath=[],
              runtime_hooks=[],
-             excludes=[],
+             excludes=['os.path', 'os.getcwd', 'os.remove', 'os.system', 'sys.exit', 'time.sleep', 'time.time'],
              win_no_prefer_redirects=False,
              win_private_assemblies=False,
              cipher=block_cipher,

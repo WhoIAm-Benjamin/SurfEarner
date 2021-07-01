@@ -228,14 +228,16 @@ def complate_tasks():
         # открываем канал
         sleep(3)
         wait('class_name', 'install_ext')
-        btn = driver.find_element_by_class_name(
-            'install_ext'
-        ).find_element_by_class_name('btn')
-        ActionChains(driver).move_to_element(btn).perform()
-        sleep(1)
-        ActionChains(driver).click().perform()
-        sleep(1)
-        if len(driver.window_handles) != 2:
+        k = 0
+        while 'cpa/video' in driver.current_url and k < 5:
+            btn = driver.find_element_by_class_name(
+                'install_ext'
+            ).find_element_by_class_name('btn')
+            ActionChains(driver).move_to_element(btn).perform()
+            sleep(1)
+            ActionChains(driver).click().perform()
+            k += 1
+        if k == 5:
             return
 
         # получаем название ролика
@@ -385,6 +387,7 @@ def main():
     index_errors = 0 if index_errors == '' else int(index_errors)
 
     # start = time()
+    execute('cls')
     print('Restarts - {}\nTimeout errors - {}\nIndex errors - {}'.format(restarts, errors, index_errors))
     try:
         init_driver()
@@ -403,14 +406,15 @@ def main():
     except WebDriverException:
         print('\n\n\a\aRestart\a\a\n\n')
         restarts = int(restarts) + 1
-        execute('cls')
         with open('restarts.txt', 'w') as f:
             f.write(str(restarts))
-        driver.quit()
+        try:
+            driver.quit()
+        except NameError:
+            pass
         ex(main())
     except TimeoutError:
         errors = int(errors) + 1
-        execute('cls')
         with open('timeout_errors.txt', 'w') as f:
             f.write(str(errors))
         excepter()
