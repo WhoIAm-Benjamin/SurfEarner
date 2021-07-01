@@ -8,6 +8,7 @@ from threading import Thread as Th
 import pyAesCrypt as pAC
 # from sys import argv
 from urllib3.exceptions import MaxRetryError as eMRE
+from urllib3.exceptions import ProtocolError as ePE
 from sys import exit as ex
 from time import sleep, time
 
@@ -233,6 +234,9 @@ def complate_tasks():
         ActionChains(driver).move_to_element(btn).perform()
         sleep(1)
         ActionChains(driver).click().perform()
+        sleep(1)
+        if len(driver.window_handles) != 2:
+            return
 
         # получаем название ролика
         wait('class_name', 'video_preview_text')
@@ -402,14 +406,9 @@ def main():
         execute('cls')
         with open('restarts.txt', 'w') as f:
             f.write(str(restarts))
-        try:
-            driver.quit()
-        except NameError:
-            pass
-        finally:
-            ex(starter())
+        driver.quit()
+        ex(main())
     except TimeoutError:
-        print('\n\n\aTimeout error\a\n\n')
         errors = int(errors) + 1
         execute('cls')
         with open('timeout_errors.txt', 'w') as f:
@@ -422,15 +421,12 @@ def main():
         excepter()
     except eMRE:
         excepter()
+    except ePE:
+        excepter()
     except KeyboardInterrupt:
-        with open('restarts.txt', 'w') as f:
-            f.write('0')
-        with open('errors.txt', 'w') as f:
-            f.write('0')
-        with open('index_errors.txt', 'w') as f:
-            f.write('0')
         driver.quit()
         sleep(3)
+        execute('taskkill /f /IM chromedriver.exe')
         execute('taskkill /f /IM "Automatic Chrome.exe"')
 
 def starter():
@@ -441,4 +437,10 @@ def starter():
 
 
 if __name__ == '__main__':
+    with open('restarts.txt', 'w') as f:
+        f.write('0')
+    with open('errors.txt', 'w') as f:
+        f.write('0')
+    with open('index_errors.txt', 'w') as f:
+        f.write('0')
     starter()
